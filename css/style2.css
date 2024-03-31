@@ -37,6 +37,10 @@ header{
     background-color: blue;
 }
 
+#container{
+    padding: 20px;
+}
+
 .link{
     /*font-size: 24%;*/
     /*font-size: 24em;*/
@@ -84,6 +88,15 @@ a{
     text-align: center;
 }
 
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+    border-top: 2px solid red;
+}
         
 
     

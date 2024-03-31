@@ -15,6 +15,10 @@ header{
     background-color: blue;
 }
 
+#container{
+    padding: 20px;
+}
+
 .link{
     border: 1px solid blue;
     display: inline-block;
