@@ -1,0 +1,97 @@
+h1{
+    font-family: serif;
+    color: black;
+    text-align: center;
+
+}
+
+h2{
+    font-family: serif;
+    color: black;
+    text-align: center;
+
+}
+
+p{
+    color: green;
+    font-size: 18px;
+}
+
+#container{
+    padding: 20px;
+}
+
+#conteúdo{
+    line-height: 1.5;
+}
+
+
+#cabeçalho{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    background-color: blue;
+}
+
+.link{
+    /*font-size: 24%;*/
+    /*font-size: 24em;*/
+    /*font-size:24rem;*/
+    /*font-size: 24vw;*/
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 0 2%;
+    background-color: grey;
+    padding:  10px 10px;
+    width: 20%;
+    transform: all 0.4s ease-out;
+
+    &:hover{
+        background-color: white;
+
+    }
+    /*NESTING ELEMENTS*/
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+
+    /*NESTING ELEMENTS*/
+    img{
+        display: inline-block;
+        width: 25%;
+    }
+     
+        
+   
+    }
+}
+
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+
+
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+        
+
+    
+
+
+
+
+ 
+
+
+

@@ -19,6 +19,15 @@ ESTE É UM COMENTÁRIO DE BLOCO
         text-align: center;
     }
 
+    #conteúdo{
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
     #cabeçalho{
         background-image: url("../images/banner-track.png");
         background-repeat: no-repeat;

@@ -1,0 +1,76 @@
+h1{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+#cabeçalho{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    background-color: blue;
+}
+
+.link{
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 0 2%;
+    background-color: grey;
+    padding: 10px 10px;
+    width: 20%;
+    transform: all 0.4s ease-out;
+
+    &:hover{
+        background-color: white;
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+
+        img{
+            display: inline-block;
+            width: 25%;
+        }
+    }
+}
+
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
